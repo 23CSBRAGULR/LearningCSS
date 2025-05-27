@@ -1,0 +1,27 @@
+h1 {
+    color:red
+}
+
+p {
+    color:cadetblue
+}
+
+.one {
+    color:aqua
+}
+
+.two {
+    color:chocolate
+}
+
+#id1 {
+    color:chartreuse
+}
+
+#id2 {
+    color:blueviolet
+}
+
+*{
+    color:darkgreen
+}
