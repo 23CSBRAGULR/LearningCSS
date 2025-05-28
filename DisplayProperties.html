@@ -1,0 +1,92 @@
+<h1>Display Properties</h1>
+<h3>There are foour types of display properties</h3>
+<ol>
+    <li>Inline</li>
+    <li>Block</li>
+    <li>Inline-Block</li>
+    <li>None</li>
+</ol>
+<hr>
+
+<h2>Inline</h2>
+<style>
+    #ie{
+        color:beige;
+        background-color: blue;
+        display: inline;
+    }
+
+    #one{
+        color:burlywood;
+        background-color: black;
+        display: inline;
+    }
+
+    #two{
+        color:black;
+        background-color:darkorange;
+        display: inline;
+    }
+
+    #three{
+        color:maroon;
+        background-color:gray;
+        display: inline;
+    }
+</style>
+<h3 id="ie">Inline Element</h3>
+<p>
+    And the element(s) will be in a single line meaning multiple types of elements will be printed on the same line
+</p>
+<h3 id="one">Element One</h3>
+<h4 id="two">Element Two</h4>
+<p id="three">Element Three</p>
+<p>Like this</p>
+<hr>
+
+<h2>Block(Default) Elements</h2>
+<p>
+    Block type is the default type that requires a whole line and will not allow any elements before or after it in the same line
+</p>
+<h3 style="color:darkgreen;background-color: darkgray;">Element1</h3>
+<h3 style="color:aqua;background-color:darkblue;">Element2</h3>
+<hr>
+
+<h2>Inline-block Elements</h2>
+<p>
+    This is the exact same as the inline but it enables width and height adjustment of the background unlike the normal inline
+</p>
+<style>
+    #o{
+        color:burlywood;
+        background-color: black;
+        display: inline-block;
+        height: 30px;
+        width: 90px;
+    }
+
+    #t{
+        color:black;
+        background-color:darkorange;
+        display: inline;
+    }
+
+    #th{
+        color:maroon;
+        background-color:gray;
+        display: inline-block;
+        height: 45px;
+        width: 150px;
+    }
+</style>
+<h4 id="o">Element1</h4>
+<h6 id="t">Element2</h6>
+<h2 id="th">Element3</h2>
+<hr>
+
+<h2>None Elements</h2>
+<p>
+    This property just hides the element. 
+</p>
+<h4 style="color:darkgoldenrod">Normal Element</h4>
+<h4 style="color:darkred;display: none;">Hidden Element</h4>
