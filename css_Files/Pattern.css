@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;;
+    background-color: navy;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: orange;
+}
+
+.tleft {
+    justify-content: top left;
+}
+
+.tright {
+    justify-content: top right;
+}
+
+.bleft {
+    justify-content: bottom left;
+}
+
+.bright {
+    justify-content: bottom right;
+}
